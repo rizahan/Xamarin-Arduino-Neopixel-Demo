@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:text="Bağlı Değil!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAlignment="center"
+        android:layout_marginLeft="120.3dp"
+        android:layout_marginRight="18.9dp" />
+    <Button
+        android:text="Bağlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="Bağlantıyı Kapat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp" />
+
+  <Button
+   android:text="Kırmızı"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/button7" />
+    <SeekBar
+        android:layout_width="383.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:max="255"
+        android:progress="0" />
+
+  <Button
+  android:text="Yeşil"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/button8" />
+  <SeekBar
+      android:layout_width="383.0dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBar2"
+      android:max="255"
+      android:progress="0" />
+
+  <Button
+  android:text="Mavi"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/button9" />
+  <SeekBar
+      android:layout_width="383.0dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/seekBar3"
+      android:max="255"
+      android:progress="0" />
+  <Button
+  android:text="Karıştır"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/button10" />
+  
+</LinearLayout>
